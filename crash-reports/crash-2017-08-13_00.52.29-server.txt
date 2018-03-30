@@ -1,0 +1,320 @@
+---- Minecraft Crash Report ----
+// Who set us up the TNT?
+
+Time: 13.08.17 0:52
+Description: Watching Server
+
+java.lang.Error
+	at net.minecraft.world.gen.feature.WorldGenMinable.func_180709_b(WorldGenMinable.java:76)
+	at net.minecraft.world.biome.BiomeDecorator.func_76795_a(BiomeDecorator.java:404)
+	at net.minecraft.world.biome.BiomeDecorator.func_76797_b(BiomeDecorator.java:423)
+	at net.minecraft.world.biome.BiomeDecorator.func_150513_a(BiomeDecorator.java:109)
+	at net.minecraft.world.biome.BiomeDecorator.func_180292_a(BiomeDecorator.java:100)
+	at net.minecraft.world.biome.BiomeGenBase.func_180624_a(BiomeGenBase.java:343)
+	at net.minecraft.world.biome.BiomeGenForest.func_180624_a(BiomeGenForest.java:166)
+	at net.minecraft.world.gen.ChunkProviderGenerate.func_73153_a(ChunkProviderGenerate.java:453)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:261)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1040)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:172)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:114)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:84)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:181)
+	at net.minecraft.world.World.func_72964_e(World.java:287)
+	at net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:365)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:221)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:690)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:344)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:605)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:481)
+	at java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.world.gen.feature.WorldGenMinable.func_180709_b(WorldGenMinable.java:76)
+	at net.minecraft.world.biome.BiomeDecorator.func_76795_a(BiomeDecorator.java:404)
+	at net.minecraft.world.biome.BiomeDecorator.func_76797_b(BiomeDecorator.java:423)
+	at net.minecraft.world.biome.BiomeDecorator.func_150513_a(BiomeDecorator.java:109)
+	at net.minecraft.world.biome.BiomeDecorator.func_180292_a(BiomeDecorator.java:100)
+	at net.minecraft.world.biome.BiomeGenBase.func_180624_a(BiomeGenBase.java:343)
+	at net.minecraft.world.biome.BiomeGenForest.func_180624_a(BiomeGenForest.java:166)
+	at net.minecraft.world.gen.ChunkProviderGenerate.func_73153_a(ChunkProviderGenerate.java:453)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73153_a(ChunkProviderServer.java:261)
+	at net.minecraft.world.chunk.Chunk.func_76624_a(Chunk.java:1040)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:172)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:114)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73158_c(ChunkProviderServer.java:84)
+	at net.minecraft.world.gen.ChunkProviderServer.func_73154_d(ChunkProviderServer.java:181)
+	at net.minecraft.world.World.func_72964_e(World.java:287)
+	at net.minecraft.world.WorldServer.func_147456_g(WorldServer.java:365)
+	at net.minecraft.world.WorldServer.func_72835_b(WorldServer.java:221)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:690)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:344)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:605)
+
+-- Thread Dump --
+Details:
+	Threads: "Netty Server IO #4" Id=39 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@3d2471ff
+	-  locked java.util.Collections$UnmodifiableSet@33e3882b
+	-  locked sun.nio.ch.WindowsSelectorImpl@37dc1a8f
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+	...
+
+
+"Netty Server IO #3" Id=38 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@72de8210
+	-  locked java.util.Collections$UnmodifiableSet@6c6bbe3d
+	-  locked sun.nio.ch.WindowsSelectorImpl@4366d14b
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+	...
+
+
+"Chunk I/O Executor Thread-1" Id=54 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1439b3ca
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1439b3ca
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Netty Server IO #2" Id=37 RUNNABLE
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@12f17d5f
+	-  locked java.util.Collections$UnmodifiableSet@23dab36a
+	-  locked sun.nio.ch.WindowsSelectorImpl@5643c2d3
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+	...
+
+
+"Netty Server IO #1" Id=36 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@f3d9c32
+	-  locked java.util.Collections$UnmodifiableSet@16bf030f
+	-  locked sun.nio.ch.WindowsSelectorImpl@6088b351
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+	...
+
+
+"File IO Thread" Id=53 RUNNABLE
+	at net.minecraft.nbt.NBTTagCompound.func_150298_a(NBTTagCompound.java:387)
+	at net.minecraft.nbt.NBTTagCompound.func_74734_a(NBTTagCompound.java:24)
+	at net.minecraft.nbt.CompressedStreamTools.func_150663_a(CompressedStreamTools.java:111)
+	at net.minecraft.nbt.CompressedStreamTools.func_74800_a(CompressedStreamTools.java:101)
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_183013_b(AnvilChunkLoader.java:232)
+	at net.minecraft.world.chunk.storage.AnvilChunkLoader.func_75814_c(AnvilChunkLoader.java:210)
+	at net.minecraft.world.storage.ThreadedFileIOBase.func_75736_b(SourceFile:37)
+	at net.minecraft.world.storage.ThreadedFileIOBase.run(SourceFile:30)
+	...
+
+
+"Server Watchdog" Id=51 RUNNABLE
+	at sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:46)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Netty Server IO #0" Id=35 RUNNABLE (in native)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll0(Native Method)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.poll(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl$SubSelector.access$400(Unknown Source)
+	at sun.nio.ch.WindowsSelectorImpl.doSelect(Unknown Source)
+	at sun.nio.ch.SelectorImpl.lockAndDoSelect(Unknown Source)
+	-  locked io.netty.channel.nio.SelectedSelectionKeySet@2815a0c9
+	-  locked java.util.Collections$UnmodifiableSet@4b2a75f5
+	-  locked sun.nio.ch.WindowsSelectorImpl@25e3b0e4
+	at sun.nio.ch.SelectorImpl.select(Unknown Source)
+	at io.netty.channel.nio.NioEventLoop.select(NioEventLoop.java:622)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:310)
+	...
+
+
+"Server console handler" Id=30 RUNNABLE (in native)
+	at org.fusesource.jansi.internal.Kernel32.ReadConsoleInputW(Native Method)
+	at org.fusesource.jansi.internal.Kernel32.readConsoleInputHelper(Kernel32.java:761)
+	at org.fusesource.jansi.internal.Kernel32.readConsoleKeyInput(Kernel32.java:794)
+	at org.fusesource.jansi.internal.WindowsSupport.readConsoleInput(WindowsSupport.java:97)
+	at jline.WindowsTerminal.readConsoleInput(WindowsTerminal.java:214)
+	at jline.WindowsTerminal.access$000(WindowsTerminal.java:54)
+	at jline.WindowsTerminal$1.read(WindowsTerminal.java:156)
+	at jline.internal.NonBlockingInputStream.read(NonBlockingInputStream.java:166)
+	-  locked jline.internal.NonBlockingInputStream@548d32
+	...
+
+
+"DestroyJavaVM" Id=29 RUNNABLE
+
+
+"Server thread" Id=27 RUNNABLE
+	at net.minecraft.world.gen.feature.WorldGenMinable.func_180709_b(WorldGenMinable.java:76)
+	at net.minecraft.world.biome.BiomeDecorator.func_76795_a(BiomeDecorator.java:404)
+	at net.minecraft.world.biome.BiomeDecorator.func_76797_b(BiomeDecorator.java:423)
+	at net.minecraft.world.biome.BiomeDecorator.func_150513_a(BiomeDecorator.java:109)
+	at net.minecraft.world.biome.BiomeDecorator.func_180292_a(BiomeDecorator.java:100)
+	at net.minecraft.world.biome.BiomeGenBase.func_180624_a(BiomeGenBase.java:343)
+	at net.minecraft.world.biome.BiomeGenForest.func_180624_a(BiomeGenForest.java:166)
+	at net.minecraft.world.gen.ChunkProviderGenerate.func_73153_a(ChunkProviderGenerate.java:453)
+	...
+
+
+"TimerQueue" Id=25 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1ddf3e89
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@1ddf3e89
+	at java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at java.util.concurrent.DelayQueue.take(Unknown Source)
+	at javax.swing.TimerQueue.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@5c27619
+
+
+"Thread-6" Id=24 WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2503c946
+	at sun.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2503c946
+	at java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.util.concurrent.LinkedBlockingQueue.take(Unknown Source)
+	at com.mojang.util.QueueLogAppender.getNextLogEvent(QueueLogAppender.java:77)
+	at net.minecraft.server.gui.MinecraftServerGui$4.run(MinecraftServerGui.java:155)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"AWT-EventQueue-0" Id=23 RUNNABLE
+	at java.awt.Component.getFont_NoClientCode(Unknown Source)
+	at java.awt.Component.getFont(Unknown Source)
+	at javax.swing.JComponent.getComponentGraphics(Unknown Source)
+	at javax.swing.JComponent.paint(Unknown Source)
+	at javax.swing.JComponent.paintChildren(Unknown Source)
+	-  locked java.awt.Component$AWTTreeLock@19afdc9
+	at javax.swing.JComponent.paint(Unknown Source)
+	at javax.swing.JComponent.paintToOffscreen(Unknown Source)
+	at javax.swing.RepaintManager$PaintManager.paintDoubleBuffered(Unknown Source)
+	...
+
+
+"AWT-Windows" Id=21 RUNNABLE (in native)
+	at sun.awt.windows.WToolkit.eventLoop(Native Method)
+	at sun.awt.windows.WToolkit.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"AWT-Shutdown" Id=20 WAITING on java.lang.Object@177e315d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.Object@177e315d
+	at java.lang.Object.wait(Unknown Source)
+	at sun.awt.AWTAutoShutdown.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Java2D Disposer" Id=19 WAITING on java.lang.ref.ReferenceQueue$Lock@73b17e4d
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@73b17e4d
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at sun.java2d.Disposer.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Server Infinisleeper" Id=18 TIMED_WAITING
+	at java.lang.Thread.sleep(Native Method)
+	at net.minecraft.server.dedicated.DedicatedServer$1.run(DedicatedServer.java:69)
+
+
+"Snooper Timer" Id=17 TIMED_WAITING on java.util.TaskQueue@4843c084
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.util.TaskQueue@4843c084
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+
+
+"NonBlockingInputStreamThread" Id=15 WAITING on jline.internal.NonBlockingInputStream@548d32 owned by "Server console handler" Id=30
+	at java.lang.Object.wait(Native Method)
+	-  waiting on jline.internal.NonBlockingInputStream@548d32
+	at jline.internal.NonBlockingInputStream.run(NonBlockingInputStream.java:275)
+	at java.lang.Thread.run(Unknown Source)
+
+
+"Attach Listener" Id=6 RUNNABLE
+
+
+"Signal Dispatcher" Id=5 RUNNABLE
+
+
+"Finalizer" Id=3 WAITING on java.lang.ref.ReferenceQueue$Lock@1ee118f0
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.ReferenceQueue$Lock@1ee118f0
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+
+"Reference Handler" Id=2 WAITING on java.lang.ref.Reference$Lock@787336a8
+	at java.lang.Object.wait(Native Method)
+	-  waiting on java.lang.ref.Reference$Lock@787336a8
+	at java.lang.Object.wait(Unknown Source)
+	at java.lang.ref.Reference.tryHandlePending(Unknown Source)
+	at java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+
+
+Stacktrace:
+	at net.minecraft.server.dedicated.ServerHangWatchdog.run(ServerHangWatchdog.java:63)
+	at java.lang.Thread.run(Unknown Source)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.8.9
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_131, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 373553136 bytes (356 MB) / 630177792 bytes (600 MB) up to 2077753344 bytes (1981 MB)
+	JVM Flags: 2 total; -Xincgc -Xmx2048M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.19 Powered by Forge 11.15.1.1902 5 mods loaded, 5 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAA	mcp{9.19} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAA	FML{8.0.99.99} [Forge Mod Loader] (forge-1.8.9-11.15.1.1902-1.8.9-universal.jar) 
+	UCHIJAAAA	Forge{11.15.1.1902} [Minecraft Forge] (forge-1.8.9-11.15.1.1902-1.8.9-universal.jar) 
+	UCHIJAAAA	MoCreatures{8.2.2} [DrZhark's Mo'Creatures Mod] (DrZharksMoCreaturesMod-8.2.2.jar) 
+	UCHIJAAAA	mod_quiver{1.8.9-1.1} [FF Quiver Mod] (mod_ffQuiver_forge_1.8.9_1.1.jar) 
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Player Count: 2 / 20; [EntityPlayerMP['BDSMMASTER'/325, l='world', x=130,85, y=67,00, z=-20,82], EntityPlayerMP['Adelinochka'/12054, l='world', x=-496,53, y=109,86, z=-746,98]]
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

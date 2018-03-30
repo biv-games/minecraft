@@ -1,0 +1,576 @@
+[16:21:17] [main/DEBUG] [FML/]: Injecting tracing printstreams for STDOUT/STDERR.
+[16:21:18] [main/INFO] [FML/]: Forge Mod Loader version 11.15.1.1902 for Minecraft 1.8.9 loading
+[16:21:18] [main/INFO] [FML/]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_151, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_151
+[16:21:18] [main/DEBUG] [FML/]: Java classpath at launch is forge-1.8.9-11.15.1.1902-1.8.9-universal.jar
+[16:21:18] [main/DEBUG] [FML/]: Java library path at launch is C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\Ivan\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Users\Ivan\AppData\Local\Microsoft\WindowsApps;;.
+[16:21:18] [main/DEBUG] [FML/]: Enabling runtime deobfuscation
+[16:21:18] [main/DEBUG] [FML/]: Instantiating coremod class FMLCorePlugin
+[16:21:18] [main/DEBUG] [FML/]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[16:21:18] [main/DEBUG] [FML/]: Enqueued coremod FMLCorePlugin
+[16:21:18] [main/DEBUG] [FML/]: Instantiating coremod class FMLForgePlugin
+[16:21:18] [main/DEBUG] [FML/]: Enqueued coremod FMLForgePlugin
+[16:21:18] [main/DEBUG] [FML/]: All fundamental core mods are successfully located
+[16:21:18] [main/DEBUG] [FML/]: Attempting to load commandline specified mods, relative to D:\Games\Minecraft\Server\1.8.9\.
+[16:21:18] [main/DEBUG] [FML/]: Discovering coremods
+[16:21:18] [main/DEBUG] [FML/]: Examining for coremod candidacy DrZharksMoCreaturesMod-8.2.2.jar
+[16:21:18] [main/DEBUG] [FML/]: Not found coremod data in DrZharksMoCreaturesMod-8.2.2.jar
+[16:21:18] [main/DEBUG] [FML/]: Examining for coremod candidacy mod_ffQuiver_forge_1.8.9_1.1.jar
+[16:21:18] [main/DEBUG] [FML/]: Not found coremod data in mod_ffQuiver_forge_1.8.9_1.1.jar
+[16:21:18] [main/DEBUG] [FML/]: Examining for coremod candidacy Xaeros_Minimap_1.13.1_Forge_1.8.9.jar
+[16:21:18] [main/DEBUG] [FML/]: Not found coremod data in Xaeros_Minimap_1.13.1_Forge_1.8.9.jar
+[16:21:18] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:21:18] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:21:18] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:21:18] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:21:18] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:21:18] [main/DEBUG] [FML/]: Injecting coremod FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin} class transformers
+[16:21:18] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.BlamingTransformer
+[16:21:18] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:21:18] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:21:18] [main/TRACE] [FML/]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:21:18] [main/DEBUG] [FML/]: Injection complete
+[16:21:18] [main/DEBUG] [FML/]: Running coremod plugin for FMLCorePlugin {net.minecraftforge.fml.relauncher.FMLCorePlugin}
+[16:21:18] [main/DEBUG] [FML/]: Running coremod plugin FMLCorePlugin
+[16:21:19] [main/DEBUG] [FML/]: Read 825 binary patches
+[16:21:19] [main/DEBUG] [FML/]: Loading deobfuscation resource /deobfuscation_data-1.8.9.lzma with 27891 records
+[16:21:19] [main/INFO] [FML/]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:21:19] [main/DEBUG] [FML/]: Coremod plugin class FMLCorePlugin run successfully
+[16:21:19] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:21:19] [main/DEBUG] [FML/]: Injecting coremod FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin} class transformers
+[16:21:19] [main/DEBUG] [FML/]: Injection complete
+[16:21:19] [main/DEBUG] [FML/]: Running coremod plugin for FMLForgePlugin {net.minecraftforge.classloading.FMLForgePlugin}
+[16:21:19] [main/DEBUG] [FML/]: Running coremod plugin FMLForgePlugin
+[16:21:19] [main/DEBUG] [FML/]: Coremod plugin class FMLForgePlugin run successfully
+[16:21:19] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:21:19] [main/DEBUG] [FML/]: Loaded 165 rules from AccessTransformer config file forge_at.cfg
+[16:21:19] [main/DEBUG] [FML/]: Validating minecraft
+[16:21:20] [main/DEBUG] [FML/]: Minecraft validated, launching...
+[16:21:20] [main/INFO] [LaunchWrapper/]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:21:20] [main/INFO] [LaunchWrapper/]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:21:20] [main/INFO] [LaunchWrapper/]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:21:26] [Server thread/INFO] [FML/]: MinecraftForge v11.15.1.1902 Initialized
+[16:21:26] [Server thread/INFO] [FML/]: Replaced 229 ore recipies
+[16:21:26] [Server thread/DEBUG] [FML/]: File D:\Games\Minecraft\Server\1.8.9\config\injectedDependencies.json not found. No dependencies injected
+[16:21:27] [Server thread/DEBUG] [FML/]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[16:21:27] [Server thread/DEBUG] [FML/]: Attempting to load mods contained in the minecraft jar file and associated classes
+[16:21:27] [Server thread/DEBUG] [FML/]: Minecraft is a file at D:\Games\Minecraft\Server\1.8.9\forge-1.8.9-11.15.1.1902-1.8.9-universal.jar, loading
+[16:21:27] [Server thread/DEBUG] [FML/]: Minecraft jar mods loaded successfully
+[16:21:27] [Server thread/INFO] [FML/]: Found 0 mods from the command line. Injecting into mod discoverer
+[16:21:27] [Server thread/INFO] [FML/]: Searching D:\Games\Minecraft\Server\1.8.9\mods for mods
+[16:21:27] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file DrZharksMoCreaturesMod-8.2.2.jar
+[16:21:27] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file mod_ffQuiver_forge_1.8.9_1.1.jar
+[16:21:27] [Server thread/DEBUG] [FML/]: Found a candidate zip or jar file Xaeros_Minimap_1.13.1_Forge_1.8.9.jar
+[16:21:27] [Server thread/DEBUG] [FML/]: Examining file forge-1.8.9-11.15.1.1902-1.8.9-universal.jar for potential mods
+[16:21:27] [Server thread/DEBUG] [FML/]: The mod container forge-1.8.9-11.15.1.1902-1.8.9-universal.jar appears to be missing an mcmod.info file
+[16:21:28] [Server thread/DEBUG] [FML/]: Examining file DrZharksMoCreaturesMod-8.2.2.jar for potential mods
+[16:21:28] [Server thread/TRACE] [FML/]: Located mcmod.info file in file DrZharksMoCreaturesMod-8.2.2.jar
+[16:21:28] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (drzhark.mocreatures.MoCreatures) - loading
+[16:21:28] [Server thread/TRACE] [MoCreatures/]: Parsed dependency info : [] [] []
+[16:21:28] [Server thread/DEBUG] [FML/]: Examining file mod_ffQuiver_forge_1.8.9_1.1.jar for potential mods
+[16:21:28] [Server thread/TRACE] [FML/]: Located mcmod.info file in file mod_ffQuiver_forge_1.8.9_1.1.jar
+[16:21:28] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (net.unladenswallow.minecraft.quiver.ModFFQuiver) - loading
+[16:21:28] [Server thread/TRACE] [mod_quiver/]: Parsed dependency info : [] [] []
+[16:21:28] [Server thread/DEBUG] [mod_quiver/]: Attempting to load the file version.properties from mod_ffQuiver_forge_1.8.9_1.1.jar to locate a version number for mod_quiver
+[16:21:28] [Server thread/WARN] [mod_quiver/]: Mod mod_quiver is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.8.9-1.1
+[16:21:28] [Server thread/DEBUG] [FML/]: Examining file Xaeros_Minimap_1.13.1_Forge_1.8.9.jar for potential mods
+[16:21:28] [Server thread/TRACE] [FML/]: Located mcmod.info file in file Xaeros_Minimap_1.13.1_Forge_1.8.9.jar
+[16:21:29] [Server thread/DEBUG] [FML/]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (xaero.minimap.XaeroMinimap) - loading
+[16:21:29] [Server thread/INFO] [FML/]: Disabling mod XaeroMinimap it is client side only.
+[16:21:29] [Server thread/DEBUG] [FML/]: Skipping mod xaero.minimap.XaeroMinimap, container opted to not load.
+[16:21:29] [Server thread/INFO] [FML/]: Forge Mod Loader has identified 5 mods to load
+[16:21:29] [Server thread/TRACE] [FML/]: Received a system property request ''
+[16:21:29] [Server thread/TRACE] [FML/]: System property request managing the state of 0 mods
+[16:21:29] [Server thread/DEBUG] [FML/]: After merging, found state information for 0 mods
+[16:21:29] [Server thread/DEBUG] [FML/]: Found translations in forge-1.8.9-11.15.1.1902-1.8.9-universal.jar [af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[16:21:29] [Server thread/DEBUG] [FML/]: Found translations in forge-1.8.9-11.15.1.1902-1.8.9-universal.jar [af_ZA, ar_SA, br_FR, ca_ES, cs_CZ, da_DK, de_DE, el_GR, en_US, es_ES, fa_IR, fi_FI, fr_FR, he_IL, hu_HU, it_IT, ja_JP, ko_KR, lt_LT, nb_NO, nl_NL, nn_NO, no_NO, pl_PL, pt_BR, pt_PT, ro_RO, ru_RU, sl_SI, sr_SP, sv_SE, tr_TR, uk_UA, vi_VN, zh_CN, zh_TW]
+[16:21:29] [Server thread/DEBUG] [MoCreatures/]: Enabling mod MoCreatures
+[16:21:29] [Server thread/DEBUG] [FML/]: Found translations in DrZharksMoCreaturesMod-8.2.2.jar [en_US, ru_RU]
+[16:21:29] [Server thread/DEBUG] [mod_quiver/]: Enabling mod mod_quiver
+[16:21:29] [Server thread/DEBUG] [FML/]: Found translations in mod_ffQuiver_forge_1.8.9_1.1.jar [en_US]
+[16:21:29] [Server thread/TRACE] [FML/]: Verifying mod requirements are satisfied
+[16:21:29] [Server thread/TRACE] [FML/]: All mod requirements are satisfied
+[16:21:29] [Server thread/TRACE] [FML/]: Sorting mods into an ordered list
+[16:21:29] [Server thread/TRACE] [FML/]: Mod sorting completed successfully
+[16:21:29] [Server thread/DEBUG] [FML/]: Mod sorting data
+[16:21:29] [Server thread/DEBUG] [FML/]: 	MoCreatures(DrZhark's Mo'Creatures Mod:8.2.2): DrZharksMoCreaturesMod-8.2.2.jar ()
+[16:21:29] [Server thread/DEBUG] [FML/]: 	mod_quiver(FF Quiver Mod:1.8.9-1.1): mod_ffQuiver_forge_1.8.9_1.1.jar ()
+[16:21:29] [Server thread/INFO] [FML/]: FML has found a non-mod file Xaeros_Minimap_1.13.1_Forge_1.8.9.jar in your mods directory. It will now be injected into your classpath. This could severe stability issues, it should be removed if possible.
+[16:21:29] [Server thread/TRACE] [mcp/mcp]: Sending event FMLConstructionEvent to mod mcp
+[16:21:29] [Server thread/TRACE] [mcp/mcp]: Sent event FMLConstructionEvent to mod mcp
+[16:21:29] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Coder Pack took 0,003s
+[16:21:29] [Server thread/TRACE] [FML/FML]: Sending event FMLConstructionEvent to mod FML
+[16:21:29] [Server thread/TRACE] [FML/FML]: Mod FML is using network checker : Invoking method checkModLists
+[16:21:29] [Server thread/TRACE] [FML/FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[16:21:29] [Server thread/TRACE] [FML/FML]: The mod FML accepts its own version (8.0.99.99)
+[16:21:29] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, MoCreatures, mod_quiver] at CLIENT
+[16:21:29] [Server thread/INFO] [FML/FML]: Attempting connection with missing mods [mcp, FML, Forge, MoCreatures, mod_quiver] at SERVER
+[16:21:30] [Server thread/TRACE] [FML/FML]: Sent event FMLConstructionEvent to mod FML
+[16:21:30] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Forge Mod Loader took 1,343s
+[16:21:30] [Server thread/TRACE] [Forge/Forge]: Sending event FMLConstructionEvent to mod Forge
+[16:21:30] [Server thread/TRACE] [FML/Forge]: Mod Forge is using network checker : No network checking performed
+[16:21:30] [Server thread/TRACE] [FML/Forge]: Testing mod Forge to verify it accepts its own version in a remote connection
+[16:21:30] [Server thread/TRACE] [FML/Forge]: The mod Forge accepts its own version (11.15.1.1902)
+[16:21:30] [Server thread/TRACE] [Forge/Forge]: Sent event FMLConstructionEvent to mod Forge
+[16:21:30] [Server thread/DEBUG] [FML/]: Bar Step: Construction - Minecraft Forge took 0,012s
+[16:21:30] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLConstructionEvent to mod MoCreatures
+[16:21:30] [Server thread/TRACE] [FML/MoCreatures]: Mod MoCreatures is using network checker : Accepting version 8.2.2
+[16:21:30] [Server thread/TRACE] [FML/MoCreatures]: Testing mod MoCreatures to verify it accepts its own version in a remote connection
+[16:21:30] [Server thread/TRACE] [FML/MoCreatures]: The mod MoCreatures accepts its own version (8.2.2)
+[16:21:30] [Server thread/DEBUG] [FML/MoCreatures]: Attempting to inject @SidedProxy classes into MoCreatures
+[16:21:30] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLConstructionEvent to mod MoCreatures
+[16:21:30] [Server thread/DEBUG] [FML/]: Bar Step: Construction - DrZhark's Mo'Creatures Mod took 0,137s
+[16:21:30] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLConstructionEvent to mod mod_quiver
+[16:21:30] [Server thread/TRACE] [FML/mod_quiver]: Mod mod_quiver is using network checker : Accepting version 1.8.9-1.1
+[16:21:30] [Server thread/TRACE] [FML/mod_quiver]: Testing mod mod_quiver to verify it accepts its own version in a remote connection
+[16:21:30] [Server thread/TRACE] [FML/mod_quiver]: The mod mod_quiver accepts its own version (1.8.9-1.1)
+[16:21:30] [Server thread/DEBUG] [FML/mod_quiver]: Attempting to inject @SidedProxy classes into mod_quiver
+[16:21:30] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLConstructionEvent to mod mod_quiver
+[16:21:30] [Server thread/DEBUG] [FML/]: Bar Step: Construction - FF Quiver Mod took 0,029s
+[16:21:30] [Server thread/DEBUG] [FML/]: Bar Finished: Construction took 1,524s
+[16:21:30] [Server thread/DEBUG] [FML/]: Mod signature data
+[16:21:30] [Server thread/DEBUG] [FML/]:  	Valid Signatures:
+[16:21:30] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.8.9-11.15.1.1902-1.8.9-universal.jar
+[16:21:30] [Server thread/DEBUG] [FML/]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) Forge	(Minecraft Forge	11.15.1.1902)	forge-1.8.9-11.15.1.1902-1.8.9-universal.jar
+[16:21:30] [Server thread/DEBUG] [FML/]:  	Missing Signatures:
+[16:21:30] [Server thread/DEBUG] [FML/]: 		mcp	(Minecraft Coder Pack	9.19)	minecraft.jar
+[16:21:30] [Server thread/DEBUG] [FML/]: 		MoCreatures	(DrZhark's Mo'Creatures Mod	8.2.2)	DrZharksMoCreaturesMod-8.2.2.jar
+[16:21:30] [Server thread/DEBUG] [FML/]: 		mod_quiver	(FF Quiver Mod	1.8.9-1.1)	mod_ffQuiver_forge_1.8.9_1.1.jar
+[16:21:30] [Server thread/INFO] [FML/]: Processing ObjectHolder annotations
+[16:21:30] [Server thread/INFO] [FML/]: Found 384 ObjectHolder annotations
+[16:21:30] [Server thread/INFO] [FML/]: Identifying ItemStackHolder annotations
+[16:21:30] [Server thread/INFO] [FML/]: Found 0 ItemStackHolder annotations
+[16:21:30] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPreInitializationEvent to mod mcp
+[16:21:30] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPreInitializationEvent to mod mcp
+[16:21:30] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Coder Pack took 0,001s
+[16:21:30] [Server thread/TRACE] [FML/FML]: Sending event FMLPreInitializationEvent to mod FML
+[16:21:31] [Server thread/TRACE] [FML/FML]: Sent event FMLPreInitializationEvent to mod FML
+[16:21:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Forge Mod Loader took 0,018s
+[16:21:31] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPreInitializationEvent to mod Forge
+[16:21:31] [Server thread/INFO] [FML/Forge]: Configured a dormant chunk cache size of 0
+[16:21:31] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPreInitializationEvent to mod Forge
+[16:21:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - Minecraft Forge took 0,387s
+[16:21:31] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLPreInitializationEvent to mod MoCreatures
+[16:21:31] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16:21:31] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLPreInitializationEvent to mod MoCreatures
+[16:21:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - DrZhark's Mo'Creatures Mod took 0,342s
+[16:21:31] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLPreInitializationEvent to mod mod_quiver
+[16:21:31] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLPreInitializationEvent to mod mod_quiver
+[16:21:31] [Server thread/DEBUG] [FML/]: Bar Step: PreInitialization - FF Quiver Mod took 0,024s
+[16:21:31] [Server thread/DEBUG] [FML/]: Bar Finished: PreInitialization took 0,772s
+[16:21:31] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:21:31] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:21:31] [Server thread/INFO] [FML/]: Injecting itemstacks
+[16:21:31] [Server thread/INFO] [FML/]: Itemstack injection complete
+[16:21:31] [Forge Version Check/DEBUG] [ForgeVersionCheck/Forge]: [Forge] Received version check data:
+{
+  "homepage": "http://files.minecraftforge.net/maven/net/minecraftforge/forge/",
+  "promos": {
+    "1.10-latest": "12.18.0.2000",
+    "1.10.2-latest": "12.18.3.2511",
+    "1.10.2-recommended": "12.18.3.2185",
+    "1.11-latest": "13.19.1.2199",
+    "1.11-recommended": "13.19.1.2189",
+    "1.11.2-latest": "13.20.1.2588",
+    "1.11.2-recommended": "13.20.1.2386",
+    "1.12-latest": "14.21.1.2443",
+    "1.12-recommended": "14.21.1.2387",
+    "1.12.1-latest": "14.22.1.2485",
+    "1.12.1-recommended": "14.22.1.2478",
+    "1.12.2-latest": "14.23.1.2589",
+    "1.12.2-recommended": "14.23.1.2555",
+    "1.5.2-latest": "7.8.1.738",
+    "1.5.2-recommended": "7.8.1.737",
+    "1.6.1-latest": "8.9.0.775",
+    "1.6.2-latest": "9.10.1.871",
+    "1.6.2-recommended": "9.10.1.871",
+    "1.6.3-latest": "9.11.0.878",
+    "1.6.4-latest": "9.11.1.1345",
+    "1.6.4-recommended": "9.11.1.1345",
+    "1.7.10-latest": "10.13.4.1614",
+    "1.7.10-latest-1.7.10": "10.13.2.1343",
+    "1.7.10-recommended": "10.13.4.1558",
+    "1.7.2-latest": "10.12.2.1147",
+    "1.7.2-recommended": "10.12.2.1121",
+    "1.8-latest": "11.14.4.1577",
+    "1.8-recommended": "11.14.4.1563",
+    "1.8.8-latest": "11.15.0.1655",
+    "1.8.9-latest": "11.15.1.2318",
+    "1.8.9-recommended": "11.15.1.1722",
+    "1.9-latest": "12.16.0.1942",
+    "1.9-recommended": "12.16.1.1887",
+    "1.9.4-latest": "12.17.0.2051",
+    "1.9.4-recommended": "12.17.0.1976",
+    "latest": "14.23.1.2589",
+    "latest-1.7.10": "10.13.2.1343",
+    "recommended": "14.23.1.2555"
+  }
+}
+[16:21:31] [Forge Version Check/INFO] [ForgeVersionCheck/Forge]: [Forge] Found status: OUTDATED Target: 11.15.1.2318
+[16:21:32] [Server thread/TRACE] [mcp/mcp]: Sending event FMLInitializationEvent to mod mcp
+[16:21:32] [Server thread/TRACE] [mcp/mcp]: Sent event FMLInitializationEvent to mod mcp
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Coder Pack took 0,001s
+[16:21:32] [Server thread/TRACE] [FML/FML]: Sending event FMLInitializationEvent to mod FML
+[16:21:32] [Server thread/TRACE] [FML/FML]: Sent event FMLInitializationEvent to mod FML
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Forge Mod Loader took 0,001s
+[16:21:32] [Server thread/TRACE] [Forge/Forge]: Sending event FMLInitializationEvent to mod Forge
+[16:21:32] [Server thread/TRACE] [Forge/Forge]: Sent event FMLInitializationEvent to mod Forge
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - Minecraft Forge took 0,001s
+[16:21:32] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLInitializationEvent to mod MoCreatures
+[16:21:32] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLInitializationEvent to mod MoCreatures
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - DrZhark's Mo'Creatures Mod took 0,087s
+[16:21:32] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLInitializationEvent to mod mod_quiver
+[16:21:32] [Server thread/INFO] [FFQ/mod_quiver]: Initializing mod_quiver
+[16:21:32] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLInitializationEvent to mod mod_quiver
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: Initialization - FF Quiver Mod took 0,019s
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Finished: Initialization took 0,107s
+[16:21:32] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mcp
+[16:21:32] [Server thread/TRACE] [mcp/mcp]: Sending event IMCEvent to mod mcp
+[16:21:32] [Server thread/TRACE] [mcp/mcp]: Sent event IMCEvent to mod mcp
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0,009s
+[16:21:32] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod FML
+[16:21:32] [Server thread/TRACE] [FML/FML]: Sending event IMCEvent to mod FML
+[16:21:32] [Server thread/TRACE] [FML/FML]: Sent event IMCEvent to mod FML
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0,001s
+[16:21:32] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod Forge
+[16:21:32] [Server thread/TRACE] [Forge/Forge]: Sending event IMCEvent to mod Forge
+[16:21:32] [Server thread/TRACE] [Forge/Forge]: Sent event IMCEvent to mod Forge
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - Minecraft Forge took 0,001s
+[16:21:32] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod MoCreatures
+[16:21:32] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event IMCEvent to mod MoCreatures
+[16:21:32] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event IMCEvent to mod MoCreatures
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - DrZhark's Mo'Creatures Mod took 0,001s
+[16:21:32] [Server thread/TRACE] [FML/]: Attempting to deliver 0 IMC messages to mod mod_quiver
+[16:21:32] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event IMCEvent to mod mod_quiver
+[16:21:32] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event IMCEvent to mod mod_quiver
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: InterModComms$IMC - FF Quiver Mod took 0,001s
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Finished: InterModComms$IMC took 0,011s
+[16:21:32] [Server thread/INFO] [FML/]: Injecting itemstacks
+[16:21:32] [Server thread/INFO] [FML/]: Itemstack injection complete
+[16:21:32] [Server thread/TRACE] [mcp/mcp]: Sending event FMLPostInitializationEvent to mod mcp
+[16:21:32] [Server thread/TRACE] [mcp/mcp]: Sent event FMLPostInitializationEvent to mod mcp
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Coder Pack took 0,001s
+[16:21:32] [Server thread/TRACE] [FML/FML]: Sending event FMLPostInitializationEvent to mod FML
+[16:21:32] [Server thread/TRACE] [FML/FML]: Sent event FMLPostInitializationEvent to mod FML
+[16:21:32] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Forge Mod Loader took 0,001s
+[16:21:32] [Server thread/TRACE] [Forge/Forge]: Sending event FMLPostInitializationEvent to mod Forge
+[16:21:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLPostInitializationEvent to mod Forge
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - Minecraft Forge took 0,397s
+[16:21:33] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLPostInitializationEvent to mod MoCreatures
+[16:21:33] [Server thread/WARN] [FML/MoCreatures]: Redundant call to BiomeDictionary.registerAllBiomes ignored
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Bunny as MoCreatures.Bunny
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Snake as MoCreatures.Snake
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Turtle as MoCreatures.Turtle
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Bird as MoCreatures.Bird
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Mouse as MoCreatures.Mouse
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Turkey as MoCreatures.Turkey
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity WildHorse as MoCreatures.WildHorse
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity HorseMob as MoCreatures.HorseMob
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Ogre as MoCreatures.Ogre
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Boar as MoCreatures.Boar
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Bear as MoCreatures.Bear
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Duck as MoCreatures.Duck
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Deer as MoCreatures.Deer
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity WWolf as MoCreatures.WWolf
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Wraith as MoCreatures.Wraith
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity FlameWraith as MoCreatures.FlameWraith
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Fox as MoCreatures.Fox
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Werewolf as MoCreatures.Werewolf
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Shark as MoCreatures.Shark
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Dolphin as MoCreatures.Dolphin
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Fishy as MoCreatures.Fishy
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Kitty as MoCreatures.Kitty
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity KittyBed as MoCreatures.KittyBed
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity LitterBox as MoCreatures.LitterBox
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Rat as MoCreatures.Rat
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity HellRat as MoCreatures.HellRat
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Scorpion as MoCreatures.Scorpion
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Crocodile as MoCreatures.Crocodile
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity MantaRay as MoCreatures.MantaRay
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity StingRay as MoCreatures.StingRay
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity JellyFish as MoCreatures.JellyFish
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Goat as MoCreatures.Goat
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Egg as MoCreatures.Egg
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Ostrich as MoCreatures.Ostrich
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Bee as MoCreatures.Bee
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Fly as MoCreatures.Fly
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity DragonFly as MoCreatures.DragonFly
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Firefly as MoCreatures.Firefly
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Cricket as MoCreatures.Cricket
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Snail as MoCreatures.Snail
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity ButterFly as MoCreatures.ButterFly
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity TRock as MoCreatures.TRock
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity BigGolem as MoCreatures.BigGolem
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity PetScorpion as MoCreatures.PetScorpion
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity MoCPlatform as MoCreatures.MoCPlatform
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Elephant as MoCreatures.Elephant
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity KomodoDragon as MoCreatures.KomodoDragon
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Wyvern as MoCreatures.Wyvern
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Roach as MoCreatures.Roach
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Maggot as MoCreatures.Maggot
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Crab as MoCreatures.Crab
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Raccoon as MoCreatures.Raccoon
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity MiniGolem as MoCreatures.MiniGolem
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity SilverSkeleton as MoCreatures.SilverSkeleton
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Ant as MoCreatures.Ant
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity MediumFish as MoCreatures.MediumFish
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity SmallFish as MoCreatures.SmallFish
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Piranha as MoCreatures.Piranha
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Ent as MoCreatures.Ent
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Mole as MoCreatures.Mole
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Manticore as MoCreatures.Manticore
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Lion as MoCreatures.Lion
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Tiger as MoCreatures.Tiger
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Leopard as MoCreatures.Leopard
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity Panther as MoCreatures.Panther
+[16:21:33] [Server thread/TRACE] [FML/MoCreatures]: Automatically registered mod MoCreatures entity ManticorePet as MoCreatures.ManticorePet
+[16:21:33] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLPostInitializationEvent to mod MoCreatures
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - DrZhark's Mo'Creatures Mod took 0,560s
+[16:21:33] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLPostInitializationEvent to mod mod_quiver
+[16:21:33] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLPostInitializationEvent to mod mod_quiver
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: PostInitialization - FF Quiver Mod took 0,000s
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Finished: PostInitialization took 0,959s
+[16:21:33] [Server thread/TRACE] [mcp/mcp]: Sending event FMLLoadCompleteEvent to mod mcp
+[16:21:33] [Server thread/TRACE] [mcp/mcp]: Sent event FMLLoadCompleteEvent to mod mcp
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Coder Pack took 0,000s
+[16:21:33] [Server thread/TRACE] [FML/FML]: Sending event FMLLoadCompleteEvent to mod FML
+[16:21:33] [Server thread/TRACE] [FML/FML]: Sent event FMLLoadCompleteEvent to mod FML
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Forge Mod Loader took 0,000s
+[16:21:33] [Server thread/TRACE] [Forge/Forge]: Sending event FMLLoadCompleteEvent to mod Forge
+[16:21:33] [Server thread/DEBUG] [FML/Forge]: Forge RecipeSorter Baking:
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   14: RecipeEntry("Before", UNKNOWN, )
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   13: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   12: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   11: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   10: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   9: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   8: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   7: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   6: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   5: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   4: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   3: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   2: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[16:21:33] [Server thread/DEBUG] [FML/Forge]:   1: RecipeEntry("After", UNKNOWN, )
+[16:21:33] [Server thread/DEBUG] [FML/Forge]: Sorting recipies
+[16:21:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLLoadCompleteEvent to mod Forge
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - Minecraft Forge took 0,017s
+[16:21:33] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLLoadCompleteEvent to mod MoCreatures
+[16:21:33] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLLoadCompleteEvent to mod MoCreatures
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - DrZhark's Mo'Creatures Mod took 0,000s
+[16:21:33] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLLoadCompleteEvent to mod mod_quiver
+[16:21:33] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLLoadCompleteEvent to mod mod_quiver
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: LoadComplete - FF Quiver Mod took 0,000s
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Finished: LoadComplete took 0,019s
+[16:21:33] [Server thread/DEBUG] [FML/]: Freezing block and item id maps
+[16:21:33] [Server thread/INFO] [FML/]: Forge Mod Loader has successfully loaded 5 mods
+[16:21:33] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerAboutToStartEvent to mod mcp
+[16:21:33] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerAboutToStartEvent to mod mcp
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0,000s
+[16:21:33] [Server thread/TRACE] [FML/FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[16:21:33] [Server thread/TRACE] [FML/FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0,000s
+[16:21:33] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerAboutToStartEvent to mod Forge
+[16:21:33] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerAboutToStartEvent to mod Forge
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - Minecraft Forge took 0,000s
+[16:21:33] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLServerAboutToStartEvent to mod MoCreatures
+[16:21:33] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLServerAboutToStartEvent to mod MoCreatures
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - DrZhark's Mo'Creatures Mod took 0,000s
+[16:21:33] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLServerAboutToStartEvent to mod mod_quiver
+[16:21:33] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLServerAboutToStartEvent to mod mod_quiver
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Step: ServerAboutToStart - FF Quiver Mod took 0,001s
+[16:21:33] [Server thread/DEBUG] [FML/]: Bar Finished: ServerAboutToStart took 0,002s
+[16:21:34] [Server thread/INFO] [FML/]: Injecting existing block and item data into this server instance
+[16:21:34] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[16:21:34] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[16:21:34] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,001s
+[16:21:34] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[16:21:34] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[16:21:34] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,001s
+[16:21:34] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[16:21:34] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[16:21:34] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,001s
+[16:21:34] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLModIdMappingEvent to mod MoCreatures
+[16:21:34] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLModIdMappingEvent to mod MoCreatures
+[16:21:34] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - DrZhark's Mo'Creatures Mod took 0,000s
+[16:21:34] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLModIdMappingEvent to mod mod_quiver
+[16:21:34] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLModIdMappingEvent to mod mod_quiver
+[16:21:34] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - FF Quiver Mod took 0,000s
+[16:21:34] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,004s
+[16:21:34] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:21:34] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:21:34] [Server thread/DEBUG] [FML/]: Loading persistent fluid defaults from world
+[16:21:34] [Server thread/DEBUG] [FML/]: The fluid minecraft:lava has been selected as the default fluid for lava
+[16:21:34] [Server thread/DEBUG] [FML/]: The fluid minecraft:water has been selected as the default fluid for water
+[16:21:34] [Server thread/INFO] [FML/]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5c665da3)
+[16:21:34] [Server thread/INFO] [FML/]: Loading dimension -17 (world) (net.minecraft.server.dedicated.DedicatedServer@5c665da3)
+[16:21:34] [Server thread/INFO] [FML/]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5c665da3)
+[16:21:34] [Server thread/INFO] [FML/]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5c665da3)
+[16:21:37] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartingEvent to mod mcp
+[16:21:37] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartingEvent to mod mcp
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Coder Pack took 0,000s
+[16:21:37] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartingEvent to mod FML
+[16:21:37] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartingEvent to mod FML
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Forge Mod Loader took 0,000s
+[16:21:37] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartingEvent to mod Forge
+[16:21:37] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartingEvent to mod Forge
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - Minecraft Forge took 0,003s
+[16:21:37] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLServerStartingEvent to mod MoCreatures
+[16:21:37] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLServerStartingEvent to mod MoCreatures
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - DrZhark's Mo'Creatures Mod took 0,014s
+[16:21:37] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLServerStartingEvent to mod mod_quiver
+[16:21:37] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLServerStartingEvent to mod mod_quiver
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarting - FF Quiver Mod took 0,000s
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarting took 0,018s
+[16:21:37] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStartedEvent to mod mcp
+[16:21:37] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStartedEvent to mod mcp
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Coder Pack took 0,000s
+[16:21:37] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStartedEvent to mod FML
+[16:21:37] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStartedEvent to mod FML
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Forge Mod Loader took 0,000s
+[16:21:37] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStartedEvent to mod Forge
+[16:21:37] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStartedEvent to mod Forge
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - Minecraft Forge took 0,000s
+[16:21:37] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLServerStartedEvent to mod MoCreatures
+[16:21:37] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLServerStartedEvent to mod MoCreatures
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - DrZhark's Mo'Creatures Mod took 0,000s
+[16:21:37] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLServerStartedEvent to mod mod_quiver
+[16:21:37] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLServerStartedEvent to mod mod_quiver
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Step: ServerStarted - FF Quiver Mod took 0,000s
+[16:21:37] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStarted took 0,001s
+[16:22:22] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:23:07] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:23:08] [Netty Server IO #2/TRACE] [FML/]: Handshake channel activating
+[16:23:08] [Netty Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[16:23:08] [Netty Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[16:23:09] [Netty Server IO #2/INFO] [FML/]: Client protocol version 2
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]:   Next: HELLO
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:6 mods->FMLHandshakeServerState$2:HELLO
+[16:23:09] [Netty Server IO #2/INFO] [FML/]: Client attempting to join with 6 mods : FML@8.0.99.99,XaeroMinimap@1.13.1,MoCreatures@8.2.2,mod_quiver@1.8.9-1.1,Forge@11.15.1.1890,mcp@9.19
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]:   Next: WAITINGCACK
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]:   Next: COMPLETE
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]:   Next: DONE
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]:   Next: DONE
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[16:23:09] [Netty Server IO #2/DEBUG] [FML/]:   Next: DONE
+[16:23:09] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[16:23:17] [Netty Server IO #2/ERROR] [FML/]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_151]
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446) ~[UnpooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [SingleThreadEventExecutor$2.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+[16:23:52] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:24:34] [Netty Server IO #3/TRACE] [FML/]: Handshake channel activating
+[16:24:34] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[16:24:34] [Netty Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[16:24:35] [Netty Server IO #3/INFO] [FML/]: Client protocol version 2
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: HELLO
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $ModList:6 mods->FMLHandshakeServerState$2:HELLO
+[16:24:35] [Netty Server IO #3/INFO] [FML/]: Client attempting to join with 6 mods : FML@8.0.99.99,XaeroMinimap@1.13.1,MoCreatures@8.2.2,mod_quiver@1.8.9-1.1,Forge@11.15.1.1890,mcp@9.19
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: WAITINGCACK
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: COMPLETE
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: DONE
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: DONE
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[16:24:35] [Netty Server IO #3/DEBUG] [FML/]:   Next: DONE
+[16:24:35] [Server thread/INFO] [FML/]: [Server thread] Server side modded connection established
+[16:24:38] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:25:01] [Netty Server IO #3/ERROR] [FML/]: NetworkDispatcher exception
+java.io.IOException: Удаленный хост принудительно разорвал существующее подключение
+	at sun.nio.ch.SocketDispatcher.read0(Native Method) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketDispatcher.read(Unknown Source) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(Unknown Source) ~[?:1.8.0_151]
+	at sun.nio.ch.IOUtil.read(Unknown Source) ~[?:1.8.0_151]
+	at sun.nio.ch.SocketChannelImpl.read(Unknown Source) ~[?:1.8.0_151]
+	at io.netty.buffer.UnpooledUnsafeDirectByteBuf.setBytes(UnpooledUnsafeDirectByteBuf.java:446) ~[UnpooledUnsafeDirectByteBuf.class:?]
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:881) ~[AbstractByteBuf.class:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:225) ~[NioSocketChannel.class:?]
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:119) [AbstractNioByteChannel$NioByteUnsafe.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:511) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:468) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:382) [NioEventLoop.class:?]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:354) [NioEventLoop.class:?]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$2.run(SingleThreadEventExecutor.java:116) [SingleThreadEventExecutor$2.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_151]
+[16:25:23] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:26:08] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:26:52] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:27:37] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:28:22] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:29:07] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:29:41] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppingEvent to mod mcp
+[16:29:41] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppingEvent to mod mcp
+[16:29:41] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Coder Pack took 0,000s
+[16:29:41] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppingEvent to mod FML
+[16:29:41] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppingEvent to mod FML
+[16:29:41] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Forge Mod Loader took 0,000s
+[16:29:41] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppingEvent to mod Forge
+[16:29:41] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppingEvent to mod Forge
+[16:29:41] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - Minecraft Forge took 0,000s
+[16:29:41] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLServerStoppingEvent to mod MoCreatures
+[16:29:41] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLServerStoppingEvent to mod MoCreatures
+[16:29:41] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - DrZhark's Mo'Creatures Mod took 0,000s
+[16:29:41] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLServerStoppingEvent to mod mod_quiver
+[16:29:41] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLServerStoppingEvent to mod mod_quiver
+[16:29:41] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopping - FF Quiver Mod took 0,000s
+[16:29:41] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopping took 0,001s
+[16:29:41] [Server thread/DEBUG] [FML/]: Gathering id map for writing to world save world
+[16:29:42] [Server thread/INFO] [FML/]: Unloading dimension 0
+[16:29:42] [Server thread/INFO] [FML/]: Unloading dimension -1
+[16:29:42] [Server thread/INFO] [FML/]: Unloading dimension 1
+[16:29:42] [Server thread/INFO] [FML/]: Unloading dimension -17
+[16:29:42] [Server thread/DEBUG] [FML/]: Reverting to frozen data state.
+[16:29:42] [Server thread/TRACE] [mcp/mcp]: Sending event FMLModIdMappingEvent to mod mcp
+[16:29:42] [Server thread/TRACE] [mcp/mcp]: Sent event FMLModIdMappingEvent to mod mcp
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0,000s
+[16:29:42] [Server thread/TRACE] [FML/FML]: Sending event FMLModIdMappingEvent to mod FML
+[16:29:42] [Server thread/TRACE] [FML/FML]: Sent event FMLModIdMappingEvent to mod FML
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Forge Mod Loader took 0,000s
+[16:29:42] [Server thread/TRACE] [Forge/Forge]: Sending event FMLModIdMappingEvent to mod Forge
+[16:29:42] [Server thread/TRACE] [Forge/Forge]: Sent event FMLModIdMappingEvent to mod Forge
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - Minecraft Forge took 0,001s
+[16:29:42] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLModIdMappingEvent to mod MoCreatures
+[16:29:42] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLModIdMappingEvent to mod MoCreatures
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - DrZhark's Mo'Creatures Mod took 0,000s
+[16:29:42] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLModIdMappingEvent to mod mod_quiver
+[16:29:42] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLModIdMappingEvent to mod mod_quiver
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ModIdMapping - FF Quiver Mod took 0,000s
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Finished: ModIdMapping took 0,002s
+[16:29:42] [Server thread/INFO] [FML/]: Applying holder lookups
+[16:29:42] [Server thread/INFO] [FML/]: Holder lookups applied
+[16:29:42] [Server thread/DEBUG] [FML/]: Frozen state restored.
+[16:29:42] [Server thread/TRACE] [mcp/mcp]: Sending event FMLServerStoppedEvent to mod mcp
+[16:29:42] [Server thread/TRACE] [mcp/mcp]: Sent event FMLServerStoppedEvent to mod mcp
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Coder Pack took 0,001s
+[16:29:42] [Server thread/TRACE] [FML/FML]: Sending event FMLServerStoppedEvent to mod FML
+[16:29:42] [Server thread/TRACE] [FML/FML]: Sent event FMLServerStoppedEvent to mod FML
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Forge Mod Loader took 0,000s
+[16:29:42] [Server thread/TRACE] [Forge/Forge]: Sending event FMLServerStoppedEvent to mod Forge
+[16:29:42] [Server thread/TRACE] [Forge/Forge]: Sent event FMLServerStoppedEvent to mod Forge
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - Minecraft Forge took 0,000s
+[16:29:42] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sending event FMLServerStoppedEvent to mod MoCreatures
+[16:29:42] [Server thread/TRACE] [MoCreatures/MoCreatures]: Sent event FMLServerStoppedEvent to mod MoCreatures
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - DrZhark's Mo'Creatures Mod took 0,000s
+[16:29:42] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sending event FMLServerStoppedEvent to mod mod_quiver
+[16:29:42] [Server thread/TRACE] [mod_quiver/mod_quiver]: Sent event FMLServerStoppedEvent to mod mod_quiver
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Step: ServerStopped - FF Quiver Mod took 0,000s
+[16:29:42] [Server thread/DEBUG] [FML/]: Bar Finished: ServerStopped took 0,002s
